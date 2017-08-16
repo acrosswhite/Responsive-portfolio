@@ -244,21 +244,30 @@ input[type=submit] {
 
 @media screen and (max-width: 768px;) {
   .sidebar {
-    float: none;
+    float: left;
   }
 }
 
 @media screen and (max-width: 640px;) {
-  header {
-    position: static;
-  }
 
   nav {
-    width: 50%
+    width: 50%;
+    float: left;
+    margin-top: 25px;
   }
 
-  #connect {
-    float: none;
+  .main-section {
+    width: 100%;
+    position: relative;
+    background-color: honeydew;
+    margin: 20px;
+  }
+  
+  .sidebar {
+    float: left;
+    max-width: 98%;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   
 }
