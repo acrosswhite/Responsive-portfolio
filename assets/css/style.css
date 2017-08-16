@@ -239,7 +239,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px;) {
-
+  
 }
 
 @media screen and (max-width: 768px;) {
@@ -252,7 +252,12 @@ input[type=submit] {
   header {
     position: static;
   }
-  .sidebar {
+
+  nav {
+    width: 50%
+  }
+
+  #connect {
     float: none;
   }
   
