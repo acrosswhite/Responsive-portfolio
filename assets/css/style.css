@@ -238,36 +238,74 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px;) {
-  
-}
-
-@media screen and (max-width: 768px;) {
-  .sidebar {
-    float: left;
+@media screen and (max-width: 980px) {
+  #logo {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
   }
 }
 
-@media screen and (max-width: 640px;) {
+@media screen and (max-width: 768px) {
+
+  .main-section {
+    max-width: 90%;
+    margin-left: 20px;
+  }
+
+  .sidebar {
+    float: left;
+    max-width: 90%;
+    margin-left: 20px;
+  }
 
   nav {
-    width: 50%;
+    float: right;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  #logo {
+    font-size: 22px;
+  }
+
+
+}
+
+@media screen and (max-width: 640px) {
+  
+  .work h3{
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  nav {
     float: left;
     margin-top: 25px;
   }
 
   .main-section {
-    width: 100%;
+    width: 90%;
     position: relative;
     background-color: honeydew;
-    margin: 20px;
+    margin: 80px 20px 20px 20px;
+  }
+
+  .name {
+    background-color: #4aaaa5;
   }
   
   .sidebar {
     float: left;
-    max-width: 98%;
-    margin-right: 5px;
-    margin-left: 5px;
+    width: 100%;
+    margin-left: 20px;
+    max-width: 90%;
+  }
+
+  #logo {
+    padding: 20px;
+    float: inherit;
+    font-size: 20px;
   }
   
 }
